@@ -8,6 +8,7 @@
     --gradient-bar: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     --color-white: #fff;
     --color-bg: #050A01;
+    --color-bgtrans: rgba(5, 10, 1, 0.3);
     --color-footer: #052E63;
     --color-blog: #063470;
     --color-text: #2F517D;

@@ -63,12 +63,18 @@ const Navbar = () => {
         )}
       </div>
       {toggleMenu && (
-        <div className="amill__navbar-menu_container scale-up-center">
-          <div className="amill__navbar-menu_container-links">
-            <NavLinks />
-            <Signon />
+        <>
+          <div
+            className="amill__backdrop slide-right"
+            onClick={() => settoggleMenu(!toggleMenu)}
+          ></div>
+          <div className="amill__navbar-menu_container slide-left">
+            <div className="amill__navbar-menu_container-links">
+              <NavLinks />
+              <Signon />
+            </div>
           </div>
-        </div>
+        </>
       )}
     </div>
   )
