@@ -16,6 +16,6 @@ A Simple website uniting humans with nature built with React JS
 # Technologies Used <br>
 <li> JSX
 <li> CSS [ Styling ]
-<li> FontAwesome [ Icons ]
+<li> React Icons [ Icons ]
 <li> Sanity
 <li> React JS [ Logic / Functionality / Rendering ]
