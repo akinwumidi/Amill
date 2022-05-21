@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.css'
 import { Navbar, Brand, Cta } from './components/'
 import { Header, Blog, Footer, Features, Possibility, Whatamill } from "./containers/"
 const App = () => {

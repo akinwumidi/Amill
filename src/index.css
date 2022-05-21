@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+:root {
+    --font-family: 'Josefin Sans', sans-serif;
+    --font-logo: 'Roboto', sans-serif;
+    --gradient-text: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    --gradient-bar: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    --color-white: #fff;
+    --color-bg: #050A01;
+    --color-footer: #052E63;
+    --color-blog: #063470;
+    --color-text: #2F517D;
+    --color-subtext: #B3195C;
+    --border-color-subtext: 1px solid #B3195C;
+    --b-red: 1px solid red;
+    --b-white: 1px solid white;
+}
