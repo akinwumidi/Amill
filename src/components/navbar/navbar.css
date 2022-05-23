@@ -125,7 +125,7 @@
     z-index: 3;
     top: 0;
     left: 100%;
-    width: 50%;
+    width: 65%;
     height: 100%;
     transition: all 1s ease;
     border-left: var(--border-color-subtext);
