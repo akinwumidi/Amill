@@ -10,7 +10,9 @@ const header = () => {
     <div className="amill_header-container">
       <div className="amill__headerWriteup-container">
         <h1 className="styled_H1 gradient__text">
-          Share your<br/> Amazing Experience <br/>with Nature & Hear Our Share
+          Share your
+          <br /> Amazing Experience <br />
+          with Nature & Hear Our Share
         </h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum,

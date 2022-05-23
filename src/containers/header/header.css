@@ -3,8 +3,8 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-around;
-    word-wrap: nowrap;
-    padding: 35px 0;
+    /* word-wrap: nowrap; */
+    padding: 35px 30px;
 
 }
 
@@ -13,7 +13,7 @@
     width: 45%;
 }
 
-.amill__headerWriteup-container h1 {
+.styled_H1 {
     font-family: var(--font-headers);
     font-weight: 500;
     line-height: 1.2;
@@ -26,7 +26,7 @@
     color: var(--color-white);
     line-height: 1.2;
     font-size: 25px;
-    word-break: break-all;
+    /* word-break: break-all; */
 }
 
 .amill__headerInput-container {
@@ -62,8 +62,12 @@
 }
 
 .amill__headerImage-container {
-    width: 40%;
-    height: 350px;
+    /* width: 40%; */
+    /* height: 350px; */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .amill__headerImage-container img {
@@ -75,9 +79,12 @@
 @media screen and (max-width:1050px) {}
 
 @media screen and (max-width:1030px) {
+    
+
     .amill__headerImage-container {
         display: none;
     }
+
     .amill_header-container {
         flex-flow: column-reverse nowrap;
         padding: 40px 20px 25px 20px;
