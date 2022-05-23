@@ -38,7 +38,7 @@ const Navbar = () => {
     <div className="amill__navbar">
       <div className="amill__navbar-links_logo">
         <span>
-          <a href="#"></a>Amill
+          <a href="#home"></a>Amill
         </span>
       </div>
       <div className="amill__navbar-links_container">

@@ -7,7 +7,7 @@ const header = () => {
   return (
     <div className="amill_header-container">
       <div className="amill__headerWriteup-container">
-        <h1 className="gradient__text">
+        <h1 className="styled_H1 gradient__text">
           Share your
           <br /> Experience with Nature
           <br /> & Hear Our Share
@@ -21,11 +21,18 @@ const header = () => {
         </p>
         <div className="amill__headerInput-container">
           <input type="email" placeholder="Tell me more about nature" />
-          <button>Hear Ours</button>
+          <button>Connect</button>
         </div>
       </div>
       <div className="amill__headerImage-container">
-        <img src={HeaderImage} alt="Header Image" />
+        <img src={HeaderImage} alt="Header" />
+      </div>
+      <div className="amill__styledText-container">
+        <h1 className="styled__H1 gradient__text">
+          Share your
+          <br /> Experience with Nature
+          <br /> & Hear Our Share
+        </h1>
       </div>
     </div>
   )
