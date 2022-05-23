@@ -1,0 +1,68 @@
+.amill_header-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    word-wrap: nowrap;
+    padding: 35px 0;
+
+}
+
+.amill__headerWriteup-container {
+    font-family: var(--font-family);
+    width: 45%;
+}
+
+.amill__headerWriteup-container h1 {
+    font-family: var(--font-headers);
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 45px;
+}
+
+.amill__headerWriteup-container p {
+    margin: 25px 0;
+    color: var(--color-white);
+    line-height: 1.2;
+}
+.amill__headerInput-container{
+    display: flex;
+}
+.amill__headerInput-container input {
+    flex: 2;
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    line-height: 30px;
+    padding: 0 10px;
+    color: var(--color-white);
+    background: var(--color-blog);
+}
+
+.amill__headerInput-container button {
+    line-height: 30px;
+    flex: 0.6;
+    padding: 0.4rem 1rem;
+    color: var(--color-white);
+    border-radius: 5px;
+    background: var(--color-subtext);
+    outline: none;
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.amill__headerImage-container {
+    width: 40%;
+    height: 350px;
+    /* border: var(--b-white); */
+}
+
+.amill__headerImage-container img {
+    width: 100%;
+    height: 100%;
+}

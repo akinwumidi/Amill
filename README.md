@@ -18,4 +18,5 @@ A Simple website uniting humans with nature built with React JS
 <li> CSS [ Styling ]
 <li> React Icons [ Icons ]
 <li> Sanity
+<li> Undraw.co [Project Images]
 <li> React JS [ Logic / Functionality / Rendering ]
