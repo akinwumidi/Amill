@@ -6,7 +6,8 @@
 }
 
 body {
-    background: var(--color-bg);
+    /* background: var(--color-bg); */
+    color:var(--color-white);
 }
 
 a {
@@ -38,14 +39,6 @@ a {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.section__padding {
-    padding: 4rem 6rem;
-}
-
-.section__margin {
-    margin: 4rem 6rem;
 }
 
 /* Animations */
@@ -81,25 +74,3 @@ a {
 
 /* Animations ends here */
 
-
-/* Tablet Devices */
-@media screen and (max-width:700px) {
-    .section__padding {
-        padding: 4rem;
-    }
-
-    .section__margin {
-        margin: 4rem;
-    }
-}
-
-/* MObile Devices */
-@media screen and (max-width:500px) {
-    .section__padding {
-        padding: 4rem 2rem;
-    }
-
-    .section__margin {
-        margin: 4rem 2rem;
-    }
-}
