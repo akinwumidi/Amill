@@ -32,6 +32,15 @@ a {
     color: unset;
 }
 
+p {
+    font-family: var(--font-family);
+}
+
+.section {
+    margin: 0 auto;
+    width: 95%;
+}
+
 .gradient__bg {
 
     /* ff 3.6+ */

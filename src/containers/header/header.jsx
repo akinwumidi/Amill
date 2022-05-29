@@ -1,8 +1,7 @@
 import React from 'react'
 import './header.css'
-// import HeaderImage from './../../assets/undraw_camping_noc8.svg'
-import HeaderImage from './../../assets/undraw_winter_walk_re_rx25.svg'
-// import HeaderImage from './../../assets/undraw_biking_kc-4-f.svg'
+// import HeaderImage from './../../assets/undraw_winter_walk_re_rx25.svg'
+import HeaderImage from './../../assets/undraw_dream_world_re_x2yl.svg'
 // import HeaderImage from './../../assets/undraw_sunny_day_re_gyxr.svg'
 
 const header = () => {

@@ -1,8 +1,6 @@
 .amill__feautures-section {
     background: var(--color-bg);
     display: flex;
-    width: 95%;
-    margin: 0 auto;
     padding: 40px 30px;
     justify-content: space-between;
 }
