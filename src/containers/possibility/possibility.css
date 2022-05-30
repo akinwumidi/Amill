@@ -37,6 +37,25 @@
     margin: 15px 0;
 }
 
+/* SVG Animation */
+#left-wheel,
+#right-wheel {
+    animation: wheelRotate 2s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes wheelRotate {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+
+}
+
 @media screen and (max-width:700px) {
     .amill__posibility-Section {
         flex-flow: column wrap;
