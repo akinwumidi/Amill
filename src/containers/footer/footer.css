@@ -1,11 +1,10 @@
 /* *************************** */
 .footer__IntoSection {
     margin: 30px 0 0 0;
-    padding: 15px 0 0 0;
+    padding: 15px 15px 0 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .footer__IntoSection button {
@@ -139,6 +138,10 @@
 @media screen and (max-width:700px) {
     .footer__IntoSection-extras {
         flex-flow: column;
+    }
+    .footer__IntoSection {
+        align-items: flex-start;
+        justify-content: flex-start;
     }
 
 }
