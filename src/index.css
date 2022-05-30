@@ -6,7 +6,7 @@
     --font-family: 'Josefin Sans', sans-serif;
     --font-headers: 'Manrope', sans-serif;
     --font-logo: 'Roboto', sans-serif;
-    --gradient-text: linear-gradient(to right bottom, #e55812, #e0422e, #d62e41, #c61f50, #b3195c);
+    --gradient-text: linear-gradient(to left bottom, #e55812, #e0422e, #d62e41, #c61f50, #b3195c);
     --gradient-bar: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     --color-white: #fff;
     --color-bg: #050A01;

@@ -16,10 +16,10 @@ const NavLinks = () => (
       <a href="#whatamill">What is Amill</a>
     </p>
     <p className="styled__nav-ptag">
-      <a href="#possibility">Experience Nature</a>
+      <a href="#feautures">Case Studies</a>
     </p>
     <p className="styled__nav-ptag">
-      <a href="#feautures">Case Studies</a>
+      <a href="#possibility">Experience Nature</a>
     </p>
     <p className="styled__nav-ptag">
       <a href="#blog">Library</a>

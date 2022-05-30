@@ -8,7 +8,7 @@ const Wamill = () => {
     color: 'var(--color-subtext)',
   }
   return (
-    <div className="gradient__bg amill__wamill" id="wamill">
+    <div className="gradient__bg amill__wamill" id="whatamill">
       <div className="amill__wamill-feature">
         <Feature
           flexdirection={'row'}

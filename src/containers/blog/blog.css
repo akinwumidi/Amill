@@ -1,0 +1,45 @@
+.amill__blog-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: var(--color-bg);
+}
+
+.amill__blog-section h1 {
+    font-family: var(--font-headers);
+}
+
+.blog__article-holder {
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__article-container {
+    margin: 0 20px 0 0;
+    align-self: stretch;
+}
+
+.side__article-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+@media screen and (max-width:820px) {
+    .main__article-container {
+        flex: 1;
+        margin: 20px 0;
+    }
+
+    .blog__article-holder {
+        flex-flow: column-reverse wrap;
+    }
+
+    .side__article-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

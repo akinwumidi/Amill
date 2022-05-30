@@ -2,15 +2,11 @@ import React from 'react'
 import './possibility.css'
 import posibilityImg from './../../assets/Ride-a-bicycle-cuate.svg'
 // import posibilityImg from './../../assets/Ride a bicycle-cuate.png'
-import { RiArrowRightLine } from 'react-icons/ri'
 
 const possibility = () => {
-  const Iconstyle = {
-    margin: '0 10px',
-    color: 'var(--color-subtext)',
-  }
+  
   return (
-    <div className="amill__posibility-Section gradient__bg section">
+    <div className="amill__posibility-Section gradient__bg section" id="possibility">
       <div className="posibilityImage-holder">
         <img src={posibilityImg} alt="Posibility" />
       </div>
@@ -18,7 +14,6 @@ const possibility = () => {
         <h4 className="gradient__text">
           <a href="#">
             Request early acess to get started
-            <RiArrowRightLine style={Iconstyle} />
           </a>
         </h4>
         <h2 className="gradient__text">
