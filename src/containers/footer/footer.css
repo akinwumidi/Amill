@@ -1,0 +1,144 @@
+/* *************************** */
+.footer__IntoSection {
+    margin: 30px 0 0 0;
+    padding: 15px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__IntoSection button {
+    background: var(--gradient-bg);
+    border: none;
+}
+
+.footer__IntoSection h1 {
+    font-family: var(--font-headers);
+    margin: 10px 0;
+}
+
+.footer__IntoSection-extras>div {
+    /* border: var(--b-white); */
+    min-width: 250px;
+    margin: 15px 0;
+}
+
+.footer__IntoSection-extras {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.quicklinks>p,
+.company>p,
+.contactus>p {
+    margin: 10px 0;
+}
+
+
+
+/* Footer Signature section */
+.footer-signature {
+    background: var(--color-footer);
+    color: var(--color-white);
+    padding: 20px;
+
+}
+
+.footerbox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.footerbox__signature-disclaimer,
+.footerbox__signature-contact {
+    margin: 10px 0;
+}
+
+.footerbox__signature-disclaimer span {
+    margin: 0 10px;
+    cursor: pointer;
+    color: var(--color-subtext);
+}
+
+.footer-btn-a {
+    display: inline-block;
+}
+
+.footer-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    border: 2px solid var(--color-white);
+    color: var(--color-white);
+    background: transparent;
+    border-radius: 10px;
+}
+
+.footer-btn:hover {
+    background: var(--gradient-bg);
+    color: var(--color-white);
+    border: none;
+}
+
+.footer-btn:hover .icon-dev {
+    margin: 0 0 0 25px;
+    color: var(--color-white);
+}
+
+.icon-dev {
+    font-size: 25px;
+    margin: 0 0 0 10px;
+    transition: all 0.3s;
+    color: var(--color-subtext);
+
+
+}
+
+/* footer icons */
+.footer__iconBox {
+    margin: 8px;
+    display: flex;
+}
+
+.footer-icon_holder {
+    margin: 0 5px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid var(--color-white);
+}
+
+.footer__iconBox-icon {
+    margin: 0 10px;
+    color: var(--color-subtext);
+}
+
+.footer-icon_holder a {
+    text-decoration: none;
+}
+
+.footer-icon_holder:hover {
+    border-color: var(--color-subtext);
+    background: var(--color-bg);
+}
+
+.footer-icon_holder:hover .footer__iconBox-icon {
+    color: var(--color-white);
+}
+
+/************************  */
+
+@media screen and (max-width:700px) {
+    .footer__IntoSection-extras {
+        flex-flow: column;
+    }
+
+}

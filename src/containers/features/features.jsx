@@ -6,24 +6,24 @@ import { Feature } from '../../components'
 const featuresData = [
   {
     id: 0,
-    title: 'Experience Natuer firsthand and see the importance',
+    title: 'Experience nature firsthand and see the importance',
     content:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque aliquam nemo eligendi deleniti porro omnis esse dolorem, ex natus voluptatibus debitis in soluta ad perferendis iste, temporibus molestias, voluptate veritatis!',
   },
   {
     id: 1,
-    title: 'Unforgetable experiecne with nature',
+    title: 'Unforgetable experience with nature',
     content:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque aliquam nemo eligendi deleniti porro omnis esse dolorem, ex natus voluptatibus debitis in soluta ad perferendis iste, temporibus molestias, voluptate veritatis!',
   },
   {
-    id: 0,
-    title: 'Experience Natuer firsthand and see the importance',
+    id: 2,
+    title: 'Experience nature firsthand and see the importance',
     content:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque aliquam nemo eligendi deleniti porro omnis esse dolorem, ex natus voluptatibus debitis in soluta ad perferendis iste, temporibus molestias, voluptate veritatis!',
   },
   {
-    id: 1,
+    id: 3,
     title: 'Unforgetable experiecne with nature',
     content:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque aliquam nemo eligendi deleniti porro omnis esse dolorem, ex natus voluptatibus debitis in soluta ad perferendis iste, temporibus molestias, voluptate veritatis!',
