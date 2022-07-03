@@ -3,7 +3,7 @@ import './cta.css'
 
 const cta = () => {
   return (
-    <div className="amill__cta-section section">
+    <div className="amill__cta-section  container">
       <div className="amill__cta-container">
         <div className="amill__cta-writeUpHolder">
           <p>Request Early Acess</p>

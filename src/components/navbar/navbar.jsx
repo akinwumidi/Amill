@@ -3,10 +3,6 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import { useState } from 'react'
 import './navbar.css'
 
-const menuIconStyles = {
-  color: 'var(--color-white)',
-  fontSize: '27px',
-}
 const NavLinks = () => (
   <>
     <p className="styled__nav-ptag current-styled__nav-ptag">
@@ -21,9 +17,6 @@ const NavLinks = () => (
     <p className="styled__nav-ptag">
       <a href="#possibility">Experience Nature</a>
     </p>
-    <p className="styled__nav-ptag">
-      <a href="#blog">Library</a>
-    </p>
   </>
 )
 const Signon = () => (
@@ -35,32 +28,28 @@ const Signon = () => (
 const Navbar = () => {
   const [toggleMenu, settoggleMenu] = useState(false)
   return (
-    <div className="amill__navbar">
-      <div className="amill__navbar-links_logo">
-        <span>
-          <a href="#home"></a>Amill
-        </span>
-      </div>
-      <div className="amill__navbar-links_container">
-        <div className=" amill__navbar-links">
-          <NavLinks />
+    <>
+      <div className="amill__navbar">
+        <div className="amill__navbar-links_logo">
+          <span>
+            <a href="#home"></a>Amill
+          </span>
         </div>
-      </div>
-      <div className="amill__navbar-sign">
-        <Signon />
-      </div>
-      <div className="amill__navbar-menu">
-        {toggleMenu ? (
-          <RiCloseLine
-            style={menuIconStyles}
-            onClick={() => settoggleMenu(!toggleMenu)}
-          />
-        ) : (
-          <RiMenu3Line
-            style={menuIconStyles}
-            onClick={() => settoggleMenu(!toggleMenu)}
-          />
-        )}
+        <div className="amill__navbar-links_container">
+          <div className=" amill__navbar-links">
+            <NavLinks />
+          </div>
+        </div>
+        <div className="amill__navbar-sign">
+          <Signon />
+        </div>
+        <div className="amill__navbar-menu">
+          {toggleMenu ? (
+            <RiCloseLine onClick={() => settoggleMenu(!toggleMenu)} />
+          ) : (
+            <RiMenu3Line onClick={() => settoggleMenu(!toggleMenu)} />
+          )}
+        </div>
       </div>
       {toggleMenu && (
         <>
@@ -69,6 +58,13 @@ const Navbar = () => {
             onClick={() => settoggleMenu(!toggleMenu)}
           ></div>
           <div className="amill__navbar-menu_container slide-left">
+            <div className="amill__navbar-menu mobilehamburger">
+              {toggleMenu ? (
+                <RiCloseLine onClick={() => settoggleMenu(!toggleMenu)} />
+              ) : (
+                <RiMenu3Line onClick={() => settoggleMenu(!toggleMenu)} />
+              )}
+            </div>
             <div className="amill__navbar-menu_container-links">
               <NavLinks />
               <Signon />
@@ -76,7 +72,7 @@ const Navbar = () => {
           </div>
         </>
       )}
-    </div>
+    </>
   )
 }
 

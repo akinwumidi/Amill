@@ -35,7 +35,7 @@ const features = () => {
     color: 'var(--color-subtext)',
   }
   return (
-    <div className="amill__feautures-section section" id="feautures">
+    <div className="amill__feautures-section section container" id="feautures">
       <div className="amill__feautures-intro">
         <h1 className="gradient__text">
           Explore multiple reasons to enjoy nature today

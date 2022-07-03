@@ -2,13 +2,14 @@ import React from 'react'
 import { RiArrowRightLine } from 'react-icons/ri'
 import { Feature } from '../../components'
 import './wamill.css'
+
 const Wamill = () => {
   const amill__wamillIconstyle = {
     margin: '0 10px',
     color: 'var(--color-subtext)',
   }
   return (
-    <div className="gradient__bg amill__wamill" id="whatamill">
+    <div className="gradient__bg amill__wamill container" id="whatamill" >
       <div className="amill__wamill-feature">
         <Feature
           flexdirection={'row'}

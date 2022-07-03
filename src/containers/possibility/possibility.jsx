@@ -1,12 +1,11 @@
 import React from 'react'
 import './possibility.css'
 import posibilityImg from './../../assets/Ride-a-bicycle-cuate.svg'
-// import posibilityImg from './../../assets/Ride a bicycle-cuate.png'
 
 const possibility = () => {
   
   return (
-    <div className="amill__posibility-Section gradient__bg section" id="possibility">
+    <div className="amill__posibility-Section gradient__bg  container" id="possibility">
       <div className="posibilityImage-holder">
         <img src={posibilityImg} alt="Posibility" />
       </div>

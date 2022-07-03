@@ -1,12 +1,10 @@
 import React from 'react'
 import './header.css'
-// import HeaderImage from './../../assets/undraw_winter_walk_re_rx25.svg'
 import HeaderImage from './../../assets/undraw_dream_world_re_x2yl.svg'
-// import HeaderImage from './../../assets/undraw_sunny_day_re_gyxr.svg'
 
 const header = () => {
   return (
-    <div className="amill_header-container">
+    <div className="amill_header-container container">
       <div className="amill__headerWriteup-container">
         <h1 className="styled_H1 gradient__text">
           Share your

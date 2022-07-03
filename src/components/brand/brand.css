@@ -1,13 +1,17 @@
 .amill__brand-section {
     display: flex;
-    justify-content: center;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 10px;
 }
 
 .amill__brand-section div {
     display: flex;
-    flex: 1 1;
-    max-width: 150px;
+    width: 120px;
     margin: 12px;
+}
+
+.amill__brand-section div>img {
+    width: 100%;
 }

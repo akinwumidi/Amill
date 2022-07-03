@@ -7,7 +7,7 @@
     --font-headers: 'Manrope', sans-serif;
     --font-logo: 'Roboto', sans-serif;
     --gradient-text: linear-gradient(to left bottom, #e55812, #e0422e, #d62e41, #c61f50, #b3195c);
-    --gradient-bg:linear-gradient(to left bottom, #e55812, #e0422e, #d62e41, #c61f50, #b3195c);
+    --gradient-bg: linear-gradient(to left bottom, #e55812, #e0422e, #d62e41, #c61f50, #b3195c);
     --color-white: #fff;
     --color-bg: #050A01;
     --color-bgtrans: rgba(5, 10, 1, 0.3);
@@ -18,4 +18,9 @@
     --border-color-subtext: 1px solid #B3195C;
     --b-red: 1px solid red;
     --b-white: 1px solid white;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
 }

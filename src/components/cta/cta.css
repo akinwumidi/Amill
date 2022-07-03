@@ -1,6 +1,5 @@
 .amill__cta-section {
-    background: var(--color-bg);
-    padding: 40px 20px;
+    padding: 40px 0;
 }
 
 .amill__cta-container {
@@ -31,9 +30,11 @@
 
 @media screen and (max-width: 700px) {
     .amill__cta-container {
+        width: 100%;
         flex-flow: column;
         align-items: flex-start;
     }
+
     .amill__cta-container button {
         margin: 10px 0;
     }

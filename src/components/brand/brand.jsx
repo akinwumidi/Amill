@@ -1,24 +1,27 @@
 import React from 'react'
 import './brand.css'
-import { google, dropbox, atlassian, shopify, slack } from './imports'
+import { amazon, cisco, disney, netflix, sony, uber } from './imports'
 
 const brand = () => {
   return (
-    <div className="amill__brand-section">
+    <div className="amill__brand-section containerv">
       <div>
-        <img src={google} alt="Brand" />
+        <img src={amazon} alt="Brand" />
       </div>
       <div>
-        <img src={shopify} alt="Brand" />
+        <img src={cisco} alt="Brand" />
       </div>
       <div>
-        <img src={slack} alt="Brand" />
+        <img src={disney} alt="Brand" />
       </div>
       <div>
-        <img src={dropbox} alt="Brand" />
+        <img src={uber} alt="Brand" />
       </div>
       <div>
-        <img src={atlassian} alt="Brand" />
+        <img src={netflix} alt="Brand" />
+      </div>
+      <div>
+        <img src={sony} alt="Brand" />
       </div>
     </div>
   )

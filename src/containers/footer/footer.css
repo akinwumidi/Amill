@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .footer__IntoSection button {
@@ -18,15 +19,14 @@
 }
 
 .footer__IntoSection-extras>div {
-    /* border: var(--b-white); */
-    min-width: 250px;
+    min-width: 210px;
     margin: 15px 0;
 }
 
 .footer__IntoSection-extras {
     width: 100%;
-    padding: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -70,6 +70,7 @@
 
 .footer-btn {
     display: flex;
+    align-self: flex-start;
     align-items: center;
     padding: 10px 30px;
     border: 2px solid var(--color-white);
@@ -139,9 +140,17 @@
     .footer__IntoSection-extras {
         flex-flow: column;
     }
+
     .footer__IntoSection {
         align-items: flex-start;
         justify-content: flex-start;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .footer__IntoSection-extras>div {
+        max-width: 100%;
     }
 
 }

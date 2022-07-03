@@ -1,9 +1,14 @@
 .amill__navbar {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    /* background: var(--color-bg); */
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 }
 
 .amill__navbar-links_logo {
@@ -44,7 +49,17 @@
 .amill__navbar-menu {
     cursor: pointer;
     display: none;
-    z-index: 50;
+}
+
+.amill__navbar-menu svg {
+    font-size: 27px;
+    color: var(--color-white);
+}
+
+.mobilehamburger {
+    position: absolute;
+    top: 15px;
+    right: 10px;
 }
 
 .amill__navbar-menu_container button,
@@ -138,6 +153,7 @@
 }
 
 .amill__backdrop {
+    display: flex;
     height: 100%;
     width: 100%;
     position: absolute;

@@ -1,13 +1,16 @@
-import google from './../../assets/google.png'
-import dropbox from './../../assets/dropbox.png'
-import atlassian from './../../assets/atlassian.png'
-import shopify from './../../assets/shopify.png'
-import slack from './../../assets/slack.png'
+
+import amazon from './../../assets/amazon.svg'
+import cisco from './../../assets/cisco.svg'
+import disney from './../../assets/disney.svg'
+import netflix from './../../assets/netflix.svg'
+import sony from './../../assets/sony.svg'
+import uber from './../../assets/uber.svg'
 
 export {
-    google,
-    dropbox,
-    atlassian,
-    shopify,
-    slack
+    amazon,
+    cisco,
+    disney,
+    netflix,
+    sony,
+    uber
 }

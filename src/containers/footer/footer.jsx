@@ -10,19 +10,22 @@ import { Feature } from '../../components'
 const footer = () => {
   return (
     <div className="footer__section gradient__bg">
-      <div className="footer-container">
+      <div className="footer-container container">
         <div className="footer__IntoSection">
-          <h1 className="gradient__text">
-            Want to start exploring & find friends with similar intrests?
-          </h1>
-          <button className="footer-btn">
-            Get connected
-            <IconContext.Provider
-              value={{ className: 'icon-dev', color: '#fff' }}
-            >
-              <RiArrowRightLine />
-            </IconContext.Provider>
-          </button>
+          <div className="container1">
+            <h1 className="gradient__text">
+              Want to start exploring & find friends with similar intrests?
+            </h1>
+            <button className="footer-btn">
+              Get connected
+              <IconContext.Provider
+                value={{ className: 'icon-dev', color: '#fff' }}
+              >
+                <RiArrowRightLine />
+              </IconContext.Provider>
+            </button>
+          </div>
+
           <div className="footer__IntoSection-extras">
             <div className="quicklinks">
               <Feature title="Quick Links" flexdirection={'column'} />
